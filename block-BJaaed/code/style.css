@@ -161,7 +161,7 @@ div {
 .card {
   width: 20rem;
   height: 500px;
-  padding: 1rem;
+  padding: 2rem 1rem;
   margin: 1%;
   background-color: white;
 }

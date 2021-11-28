@@ -130,7 +130,11 @@ books.forEach((book) => {
   h2.innerText = book.title;
 
   let p = document.createElement(`p`);
-  p.innerText = book.author;
+  p.innerText = "Author : ";
+
+  let span = document.createElement(`span`);
+  span.innerText = book.author;
+  p.append(span);
 
   let a = document.createElement(`a`);
   a.innerText = "Buy Now";
